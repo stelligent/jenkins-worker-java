@@ -4,7 +4,7 @@ Parameters:
   RepoName:
     Type: String
     Description: Repo name
-    Default: jenkins-worker-java8
+    Default: jenkins-worker-java
 Resources:
   EcsRepo:
     Type: AWS::ECR::Repository
